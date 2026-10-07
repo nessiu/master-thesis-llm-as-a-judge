@@ -1,0 +1,25 @@
+# Python dependencies for reproducing the thesis experiments.
+# Developed in Google Colab with an L4 GPU runtime.
+
+# Core ML / NLP
+torch>=2.2
+transformers>=4.44
+sentence-transformers>=3.0
+datasets>=2.20
+
+# Quantization (for 4-bit loading of Llama-3 and Selene Mini)
+bitsandbytes>=0.43
+
+# Language detection (XSum filtering)
+langid>=1.1.9
+
+# Clustering / PCA / metrics
+scikit-learn>=1.4
+numpy>=1.26
+pandas>=2.0
+
+# Plotting
+matplotlib>=3.8
+
+# MExGen attributions (installed separately from the ICX360 repo, see README)
+# icx360  # https://github.com/IBM/ICX360
