@@ -46,6 +46,7 @@ Example selection for the few-shot prompts uses two strategies:
 ├── README.md
 ├── LICENSE                       # MIT
 ├── CITATION.bib                  # BibTeX entries for MExGen, ICX360, Selene Mini
+├── requirements.txt              # Python dependencies
 ├── .gitignore
 ├── notebooks/
 │   ├── INSTANCES_CANDIDATE_OUTPUTS.ipynb   # build instances + candidate summaries
